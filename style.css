@@ -1,0 +1,66 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@400;500&family=Roboto:wght@100&display=swap');
+
+
+
+.flex-box {
+    display: flex;
+
+    background-color: #161616;
+    border: 0px;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin-left: 90px;
+    margin-top: 50px;
+
+
+
+
+
+
+
+
+}
+
+.moto {
+    padding: 111px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+
+}
+
+
+p {
+    color: #FFFFFF;
+    margin-top: 30px;
+
+}
+
+.btn-1 {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+
+}
+
+.fa-greater-than {
+    padding-left: 10px;
+
+
+}
+
+
+
+.flex-box .cover-pic img {
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 70px;
+}
