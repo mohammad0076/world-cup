@@ -100,11 +100,16 @@ h2 {
 
 }
 
-a {
+.footer a {
     text-decoration: none;
     color: #FFFFFF;
 
 
+}
+
+.left a {
+    color: #161616;
+    text-decoration: none;
 }
 
 .left {
@@ -122,6 +127,7 @@ a {
 
     margin-left: 35px;
     padding: 10x;
+
 
 
     border-radius: 5px;
@@ -202,11 +208,48 @@ a {
 
 }
 
-/* midea quaries */
-/* mobile devices */
-@media only screen and (max-width:688px) {
+.flag {
+    display: flex;
+}
+
+.vs {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+}
+
+.game-title {
+    padding-right: 70px;
+    margin-left: 105px;
+
+    font-size: small;
+}
+
+.h5 {
+    padding-left: 6px;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.flags {
+    border: 1px solid #E8E8E8;
+    width: 330px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
 
 
-    .container-1 {}
+
 
 }
+
+.flag {
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+
+/* midea quaries */
+/* mobile devices */
