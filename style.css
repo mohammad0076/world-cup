@@ -253,3 +253,17 @@ h2 {
 
 /* midea quaries */
 /* mobile devices */
+@media only screen and (max-width:688px) {
+    .flex-box {
+        flex-direction: column;
+    }
+
+    .flex-box,
+    .footer,
+    .foot {
+
+        display: none;
+    }
+
+
+}
